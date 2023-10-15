@@ -15,10 +15,38 @@ The Architecture consists of three types of layers:
 ![](DnCNN.png)
 
 #### 1.1.1 Loss Function
-
+Made use of Mean Squared Error Loss function.
+![](MSE1.png)
 
 #### 1.1.2 Training Loss
 
+![](TrainingLoss_DnCNN.png)
 
+#### 1.1.3 Results
 
+![](DnCNN_img2.png)
+
+### 1.2 Increased Depth DnCNN
+
+We increased the depth of the same architecture by 3 more layers.I used the same loss function for this case.
+
+#### 1.2.1 Training Loss
+
+![](TrainingLoss_ID_DnCNN.png)
+
+#### 1.2.2 Results
+
+![](ID_DnCNN_img1.png)
+
+### 1.3 Dilated DnCNN
+
+Used Dilated Kernels instead usual kernels in the above increased Depth DnCNN Architecture. 
+
+#### 1.3.1 Training Loss
+
+![](TrainingLoss_Dilated_DnCNN.png)
+
+#### 1.3.2 Results
+
+![](ID_dilatedDnCNN_img1.png)
 
